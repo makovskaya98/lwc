@@ -1,0 +1,12 @@
+li {
+    list-style-type: none;
+}
+
+.main-container.slds-color__background_gray-1 {
+    padding: 20px;
+}
+
+h1.title {
+    text-align: center;
+    font-size: 20px;
+}

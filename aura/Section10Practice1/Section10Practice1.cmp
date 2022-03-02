@@ -1,0 +1,4 @@
+<aura:component implements="lightning:availableForFlowScreens, flexipage:availableForAllPageTypes"
+                description="Section10Practice1">
+    <c:contactCard/>
+</aura:component>

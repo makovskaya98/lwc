@@ -1,0 +1,11 @@
+<template>
+    <div class="main-container-search slds-color__background_gray-1">
+        <div class="slds-large-size_2-of-8">
+            <lightning-input type="search" value="" onchange={getSearchName} label="Search"></lightning-input>
+        </div>
+        <lightning-datatable key-field="Id"
+                             data={allRecords}
+                             columns={columns}>
+        </lightning-datatable>
+    </div>
+</template>

@@ -1,0 +1,22 @@
+<template>
+    <lightning-card variant="Narrow" title="Contact" icon-name="standard:contact">
+        <lightning-button-icon icon-name="utility:down"
+                               variant="border-filled"
+                               alternative-text="Show More"
+                               slot="actions">
+        </lightning-button-icon>
+        <div class="main-container slds-color__background_gray-1">
+            <ul>
+                <li>First name: {firstName}</li>
+                <li>Last name: {lastName}</li>
+                <li>Department: {department}</li>
+                <li>Account name: {accountName}</li>
+                <li>Title: {title}</li>
+                <li>Birthdate: {birthdate}</li>
+                <li>Email: {email}</li>
+                <li>Phone: {phone}</li>
+                <li>Phone: {mobilePhone}</li>
+            </ul>
+        </div>
+    </lightning-card>
+</template>

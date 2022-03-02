@@ -1,0 +1,15 @@
+.main-container.slds-large-size_2-of-8 {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+lightning-input.slds-form-element {
+    display: flex;
+}
+
+.slds-align_absolute-center h1 {
+    font-size: 20px;
+    color: #1b5f9e;
+    padding: 10px 0 0 0;
+}

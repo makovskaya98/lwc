@@ -1,0 +1,10 @@
+<template>
+    <div class="main-container slds-color__background_gray-1">
+        <h1 class="title">Child Component № {title}</h1>
+        <template iterator:it={arr}>
+            <li key={it}>
+                <c-child-cmp oniteration={iterationNumber} iteration-num={it.value}></c-child-cmp>
+            </li>
+        </template>
+    </div>
+</template>

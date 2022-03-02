@@ -1,0 +1,14 @@
+<template>
+    <div class="slds-color__background_gray-1">
+        <div class="slds-align_absolute-center"><h1>{text}</h1></div>
+        <div class="main-container slds-large-size_2-of-8">
+            <lightning-input label="Enter some text"></lightning-input>
+            <lightning-button variant="brand"
+                              label="Show"
+                              title="Show Text"
+                              onclick={getText}
+                              class="slds-m-left_x-small">
+            </lightning-button>
+        </div>
+    </div>
+</template>

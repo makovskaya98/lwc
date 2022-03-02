@@ -1,0 +1,8 @@
+<template>
+    <lightning-button label='Sort by name' name='Sort' onclick={sortData}></lightning-button>
+    <c-sort-data-by-name></c-sort-data-by-name>
+    <lightning-datatable key-field="Id"
+                         data={allRecords}
+                         columns={columns}>
+    </lightning-datatable>
+</template>
